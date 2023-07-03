@@ -1,0 +1,34 @@
+.disable {
+    pointer-events: none;
+    cursor: default;
+    opacity: 0.5;
+}
+
+.decoration {
+    text-decoration: none;
+    color: #72EB3A;
+}
+.card-image{
+    display: flex;
+    align-items: center;
+    height: 300px;
+}
+.hoverFocus{
+    height: 500px;
+}
+.hoverFocus:hover {
+    border: 1px solid gold;
+    color: red;
+    background-color: #fff;
+}
+
+.hoverFocus img {
+    object-fit: contain;
+    max-height: 300px;
+    transition: transform 0.3s ease;
+
+}
+
+.hoverFocus:hover img {
+    transform: scale(1.1);
+}

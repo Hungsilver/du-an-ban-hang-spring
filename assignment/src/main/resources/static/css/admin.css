@@ -1,0 +1,12 @@
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+}
+.disable {
+    pointer-events: none;
+    cursor: default;
+    opacity: 0.5;
+}
